@@ -1,33 +1,51 @@
+/* Reset some styles for consistency */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main App styles */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
+/* General header styles, might not be used if Header component has its own */
+.App-header {
+  background-color: #004d99; /* Updated color for a fresh look */
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+}
+
+/* Updated App logo styles for a subtle spin */
+.App-logo {
+  height: 40vmin;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .App-logo {
+    animation: none;
+  }
+}
+
+/* Style for links within the app */
 .App-link {
   color: #61dafb;
 }
 
+/* Keyframes for logo spin animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +54,32 @@
     transform: rotate(360deg);
   }
 }
+
+/* Additional styles for new components */
+.container {
+  padding: 20px;
+}
+
+.header, .footer {
+  padding: 20px;
+  background-color: #003366; /* Darker shade for contrast */
+}
+
+/* Generic button styling */
+button {
+  background-color: #0066cc; /* Blue shade */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Utility classes for spacing */
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+
