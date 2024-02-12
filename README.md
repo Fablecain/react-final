@@ -30,8 +30,8 @@ Check out the live demo of the application: [REACT-FINAL Live Demo](https://exam
 4. Access the application in your web browser at `http://localhost:3000`.
 
 ## Screenshots
-![Screenshot (22)](https://github.com/Fablecain/react-final/assets/139589280/0b464fb4-ee7d-4bb9-8b2e-63a150b300fb)
 
+![Screenshot (22)](https://github.com/Fablecain/react-final/assets/139589280/f1220f64-bf5d-472c-8a58-01ccb0e57846)
 
 
 ## Contributing
