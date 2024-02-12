@@ -4,7 +4,7 @@ import './footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2024 John Doe. All rights reserved.</p>
+      <p>© 2024 Cain LeDuc. All rights reserved.</p>
     </footer>
   );
 }

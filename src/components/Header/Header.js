@@ -4,7 +4,7 @@ import './header.css';
 function Header() {
   return (
     <header className="header">
-      <h1>John Doe's Portfolio</h1>
+      <h1>Cain's Portfolio</h1>
     </header>
   );
 }
