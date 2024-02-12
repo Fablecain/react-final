@@ -20,3 +20,23 @@
     border-bottom: 2px solid #fff;
   }
   
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000; /* Default text color */
+  }
+  
+  nav ul li a.active {
+    color: #00A6FB; /* Color for the active state */
+    font-weight: bold;
+  }
+  

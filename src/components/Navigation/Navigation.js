@@ -1,15 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './navigation.css';
+import './navigation.css'; // Adjust the CSS file name as necessary
 
 function Navigation() {
   return (
-    <nav className="navigation">
+    <nav>
       <ul>
-        <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
-        <li><NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink></li>
-        <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
-        <li><NavLink to="/resume" activeClassName="active">Resume</NavLink></li>
+        <li><NavLink to="/" className={({ isActive }) => isActive ? 'active' : undefined}>About Me</NavLink></li>
+        <li><NavLink to="/portfolio" className={({ isActive }) => isActive ? 'active' : undefined}>Portfolio</NavLink></li>
+        <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : undefined}>Contact</NavLink></li>
+        <li><NavLink to="/resume" className={({ isActive }) => isActive ? 'active' : undefined}>Resume</NavLink></li>
       </ul>
     </nav>
   );
