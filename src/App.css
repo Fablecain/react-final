@@ -1,85 +1,83 @@
-/* Reset some styles for consistency */
+/* Reset some default styling */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-body, h1, h2, h3, p, ul, li, a {
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Main App styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #F4F4F4; /* Soft Gray for background */
+  color: #333; /* Dark Gray for text */
+  line-height: 1.6;
+  padding-top: 60px; /* Space for fixed header */
+}
+
 .App {
-  text-align: center;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
-/* General header styles, might not be used if Header component has its own */
-.App-header {
-  background-color: #004d99; /* Updated color for a fresh look */
-  color: white;
-  padding: 20px 0;
-  width: 100%;
-}
-
-/* Updated App logo styles for a subtle spin */
-.App-logo {
-  height: 40vmin;
-  animation: App-logo-spin infinite 20s linear;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .App-logo {
-    animation: none;
-  }
-}
-
-/* Style for links within the app */
-.App-link {
-  color: #61dafb;
-}
-
-/* Keyframes for logo spin animation */
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Additional styles for new components */
-.container {
+main {
+  flex-grow: 1;
   padding: 20px;
 }
 
+/* Header and Footer with Dark Blue Background */
 .header, .footer {
-  padding: 20px;
-  background-color: #003366; /* Darker shade for contrast */
+  background-color: #2D3E50;
+  color: #FFFFFF;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
-/* Generic button styling */
-button {
-  background-color: #0066cc; /* Blue shade */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.header {
+  top: 0;
 }
 
-button:hover {
-  background-color: #0056b3;
+.footer {
+  bottom: 0;
+  text-align: center;
 }
 
-/* Utility classes for spacing */
-.mt-20 { margin-top: 20px; }
-.mb-20 { margin-bottom: 20px; }
+/* Links */
+a {
+  color: #00A6FB; /* Sky Blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: inherit; /* Inherits from parent, for easy theme changes */
+}
+
+/* Add responsiveness to navigation */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
 

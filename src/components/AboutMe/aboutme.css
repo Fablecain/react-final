@@ -4,10 +4,37 @@
   }
   
   .profile-photo {
-    width: 150px; /* Adjust based on your layout */
-    height: 150px; /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular photo */
-    object-fit: cover; /* Ensures the image covers the area well */
-    margin: 20px auto; /* Center the photo and give some space around it */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
   }
   
+  /* Add the responsive design enhancements below */
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) { 
+    .aboutme p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .aboutme {
+      padding: 40px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .aboutme {
+      display: flex;
+      justify-content: center;
+      text-align: left;
+    }
+    .profile-photo {
+      margin-right: 20px;
+    }
+  }
