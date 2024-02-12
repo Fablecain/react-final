@@ -3,13 +3,11 @@
     padding: 20px;
   }
   
-  .aboutme h2 {
-    color: #003366;
-  }
-  
-  .aboutme p {
-    color: #333;
-    max-width: 600px;
-    margin: auto;
+  .profile-photo {
+    width: 150px; /* Adjust based on your layout */
+    height: 150px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular photo */
+    object-fit: cover; /* Ensures the image covers the area well */
+    margin: 20px auto; /* Center the photo and give some space around it */
   }
   
