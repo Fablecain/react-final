@@ -1,0 +1,15 @@
+.project {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+  }
+  
+  .project h3 {
+    color: #003366;
+  }
+  
+  .project p {
+    color: #333;
+  }
+  

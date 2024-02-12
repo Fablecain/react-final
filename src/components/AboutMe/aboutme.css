@@ -1,0 +1,15 @@
+.aboutme {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .aboutme h2 {
+    color: #003366;
+  }
+  
+  .aboutme p {
+    color: #333;
+    max-width: 600px;
+    margin: auto;
+  }
+  

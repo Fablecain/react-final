@@ -1,0 +1,22 @@
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #003366;
+  }
+  
+  .navigation li {
+    margin: 0 15px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  .active {
+    border-bottom: 2px solid #fff;
+  }
+  
