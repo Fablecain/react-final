@@ -33,14 +33,9 @@ Check out the live demo of the application: [REACT-FINAL Live Demo](https://exam
 
 ![Screenshot (22)](https://github.com/Fablecain/react-final/assets/139589280/f1220f64-bf5d-472c-8a58-01ccb0e57846)
 
-
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
 ## Author
 
-Cain Doe - [GitHub](https://github.com/Fablecain) - [LinkedIn](https://linkedin.com/in/caindoe)
+Cain LeDuc - [GitHub](https://github.com/Fablecain)
 
 ## License
 
