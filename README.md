@@ -4,7 +4,7 @@ Welcome to REACT-FINAL! This application serves as Cain's React Portfolio, showc
 
 ## Live Demo
 
-Check out the live demo of the application: [REACT-FINAL Live Demo](https://example.com)
+Check out the live demo of the application: https://react-final-cain.netlify.app/
 
 ## Features
 
