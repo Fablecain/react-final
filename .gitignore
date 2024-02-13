@@ -2,42 +2,8 @@
 # Dependency directories
 /node_modules/
 
-# Yarn PnP files
-/.pnp
-.pnp.js
-
-# Production build directory
-/build/
-
-# Testing coverage directory
-/coverage/
-
-# Next.js build output
-/.next/
-/out/
-
-# Gatsby files
-/.cache/
-/public/
-
-# Parcel-bundler cache and distribution directory
-.cache
-.dist
-
 # macOS system files
 .DS_Store
-
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-
-# Linux directory settings file
-.directory
-
-# npm debug log and lock files
-npm-debug.log*
-package-lock.json
-yarn.lock
 
 # Environment variable files
 .env
@@ -46,58 +12,5 @@ yarn.lock
 .env.test.local
 .env.production.local
 
-# Editor directories and files
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Project backups
-*.backup
-*.bak
-
-# Log files
-*.log
-logs/
-*.logs
-
-# Diagnostic reports (Node.js)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-*.lcov
-
-# nyc test coverage
-.nyc_output/
-
-# Grunt intermediate storage
-.grunt/
-
-# Bower components directory
-bower_components/
-
-# Jekyll metadata file
-.jekyll-metadata
-
 # dotenv environment variables files
 .env*
-
-# TernJS port file
-.tern-port
-
-# Storybook build outputs
-/storybook-static/
-
-# Temporary folders
-tmp/
-temp/
