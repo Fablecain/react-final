@@ -8,17 +8,17 @@
       "type": "image/x-icon"
     },
     {
-      "src": "icon192.png",
+      "src": "/Assets/projects.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "96x96"
     },
     {
-      "src": "icon512.png",
+      "src": "/Assets/candidate.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "96x96"
     },
     {
-      "src": "Assets/online-portfolio.png",
+      "src": "/Assets/online-portfolio.png",
       "type": "image/png",
       "sizes": "96x96"
     }
@@ -28,3 +28,4 @@
   "theme_color": "#004d99",
   "background_color": "#ffffff"
 }
+
